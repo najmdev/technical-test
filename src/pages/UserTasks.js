@@ -24,7 +24,7 @@ const UserTasks = () => {
 
   return (
     <div>
-      <h1 className={styles["page-title"]}>Tasks</h1>
+      <h1 className={styles["page-title"]}>User Tasks</h1>
       <ul className={styles["tasks-list"]}>
         {tasks && tasks.map((task) => <UserTask key={task.id} task={task} />)}
       </ul>

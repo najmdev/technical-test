@@ -9,3 +9,15 @@
 .tasks-list {
   @apply grid lg:grid-cols-3 gap-4;
 }
+
+.home {
+  @apply h-[calc(40vh)] flex items-center justify-center;
+}
+
+.welcome-text {
+  @apply text-[4rem] font-semibold text-center;
+}
+
+.home-users-link {
+  @apply text-2xl text-sky-700 hover:text-sky-900 hover:underline;
+}
