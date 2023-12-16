@@ -1,3 +1,4 @@
 .layout-container {
-  @apply container mx-auto px-4;
+  @apply container mx-auto px-4 pt-4 md:pt-8;
+  min-height: calc(100vh - var(--navbar-height));
 }

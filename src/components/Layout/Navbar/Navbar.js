@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <nav className={styles["bg-primary"]}>
+    <nav className={styles["bg-primary"]} id="nav">
       <div
         className={`${styles["bg-primary"]} ${styles["container"]} ${styles["nav-container"]}`}
       >

@@ -1,0 +1,11 @@
+.pending-wrapper {
+  @apply flex gap-4 items-center pt-4;
+}
+
+.pending-svg {
+  @apply w-10 h-10 text-gray-200 animate-spin fill-sky-600;
+}
+
+.pending-text {
+  @apply text-sky-800 font-semibold text-2xl;
+}
