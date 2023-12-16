@@ -5,3 +5,7 @@
 .users-list {
   @apply grid lg:grid-cols-2 gap-4;
 }
+
+.tasks-list {
+  @apply grid lg:grid-cols-3 gap-4;
+}

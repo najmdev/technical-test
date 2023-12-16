@@ -1,0 +1,19 @@
+.task {
+  @apply flex justify-between items-center border border-sky-300 shadow-sm rounded-md px-4 py-3 transition bg-sky-50;
+}
+
+.task-title {
+  @apply font-semibold text-sky-700;
+}
+
+.task-status {
+  @apply rounded-full px-3 py-0.5 text-[16px] shadow-sm;
+}
+
+.task-completed {
+  @apply text-emerald-600 bg-emerald-300;
+}
+
+.task-incomplete {
+  @apply text-red-600 bg-red-300;
+}
