@@ -23,12 +23,19 @@ const UserTasks = () => {
   }
 
   return (
-    <div>
-      <h1 className={styles["page-title"]}>User Tasks</h1>
-      <ul className={styles["tasks-list"]}>
-        {tasks && tasks.map((task) => <UserTask key={task.id} task={task} />)}
-      </ul>
-    </div>
+    <>
+      {tasks?.length !== 0 ? (
+        <>
+          <h1 className={styles["page-title"]}>User Tasks</h1>
+          <ul className={styles["tasks-list"]}>
+            {tasks &&
+              tasks.map((task) => <UserTask key={task.id} task={task} />)}
+          </ul>
+        </>
+      ) : (
+        <p>No tasks found this user !</p>
+      )}
+    </>
   );
 };
 
