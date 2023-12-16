@@ -1,0 +1,47 @@
+.bg-primary {
+  @apply bg-gray-800;
+}
+
+.nav-container {
+  @apply container mx-auto p-4 flex justify-between items-center relative z-[100];
+}
+
+.nav-logo {
+  @apply flex gap-2 items-center font-bold text-white;
+}
+
+.nav-logo-icon {
+  @apply w-7 h-7 text-sky-400;
+}
+
+.nav-toggler {
+  @apply md:hidden flex items-center;
+}
+
+.nav-toggler-btn {
+  @apply text-white focus:outline-none;
+}
+
+.nav-hamburger-size {
+  @apply w-6 h-6;
+}
+
+.nav-links-container {
+  @apply hidden md:flex items-center space-x-8;
+}
+
+.mobile-navigation {
+  @apply flex md:hidden absolute w-full transition-transform ease-in-out duration-300 transform;
+}
+
+.mobile-container {
+  @apply container mx-auto px-4 py-2;
+}
+
+.mobile-navigation-opened {
+  @apply translate-y-0;
+}
+
+.mobile-navigation-closed {
+  @apply -translate-y-[130%];
+}

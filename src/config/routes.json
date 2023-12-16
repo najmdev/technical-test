@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "label": "Home"
+    },
+    {
+      "path": "/users",
+      "label": "Users List"
+    }
+  ]
+}
